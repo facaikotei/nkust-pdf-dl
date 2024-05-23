@@ -14,5 +14,5 @@
 
     // Your code here...
     document.getElementById("download").style.display="inline-block";
-    document.getElementById("download").onclick=function(){window.open(DEFAULT_URL)};
+    document.getElementById("download").onclick=function(){window.open(DEFAULT_URL.replaceAll("%2F","/"))};
 })();
