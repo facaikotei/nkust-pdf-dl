@@ -2,17 +2,16 @@
 // @name         高科大教學平台PDF下載
 // @namespace    https://facaikotei.github.io/
 // @version      1.1
-// @description  強制顯示教學平台PDF下載按鈕
+// @description  強制顯示PDF下載按鈕
 // @author       facaikotei
 // @match        https://elearning.nkust.edu.tw/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://elearning.nkust.edu.tw/base/10001/door/tpl/icon.ico
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    // Your code here...
     document.getElementById("download").style.display="inline-block";
     document.getElementById("download").onclick=function(){window.open(DEFAULT_URL.replaceAll("%2F","/"))};
 })();
