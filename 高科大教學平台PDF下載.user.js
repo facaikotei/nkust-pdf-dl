@@ -21,7 +21,7 @@
 
     if(document.getElementById("download").style.display=="none")
     {
-        document.getElementById("download").style.display="revert";
+        document.getElementById("download").style.display="block";
         document.getElementById("download").onclick=function(){window.open(DEFAULT_URL.replaceAll("%2F","/"))};
     }
 })();
