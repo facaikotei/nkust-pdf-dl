@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name				nkust elearning PDF download
-// @name:zh				高科大教學平台PDF下載
+// @name:zh-TW			高科大教學平台PDF下載
 // @namespace			https://facaikotei.github.io/
-// @version				1.1
+// @version				1.2
 // @description			Force enable PDF downloading feature
-// @description:zh		強制啟用PDF下載功能
+// @description:zh-TW	強制啟用PDF下載功能
 // @match				https://elearning.nkust.edu.tw/learn/path/viewPDF.php
 // @icon				https://elearning.nkust.edu.tw/base/10001/door/tpl/icon.ico
 // @grant				none
