@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name				nkust elearning PDF download
 // @name:zh-TW			高科大教學平台PDF下載
+// @name:zh-CN			高科大教学平台PDF下载
 // @namespace			https://facaikotei.github.io/
-// @version				1.2
+// @version				2
 // @description			Force enable PDF downloading feature
 // @description:zh-TW	強制啟用PDF下載功能
+// @description:zh-CN	强制启用PDF下载功能
 // @match				https://elearning.nkust.edu.tw/learn/path/viewPDF.php
 // @icon				https://elearning.nkust.edu.tw/base/10001/door/tpl/icon.ico
 // @grant				none
@@ -17,6 +19,9 @@
 (function() {
     'use strict';
 
-    document.getElementById("download").style.display="block";
-    document.getElementById("download").onclick=function(){window.open(DEFAULT_URL.replaceAll("%2F","/"))};
+    if(document.getElementById("download").style.display=="none")
+    {
+        document.getElementById("download").style.display="revert";
+        document.getElementById("download").onclick=function(){window.open(DEFAULT_URL.replaceAll("%2F","/"))};
+    }
 })();
