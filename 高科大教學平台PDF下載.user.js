@@ -7,7 +7,7 @@
 // @description		強制啟用PDF下載功能
 // @description:zh-CN	强制启用PDF下载功能
 // @description:en	Force enable PDF downloading feature
-// @match		https://elearning.nkust.edu.tw/learn/path/viewPDF.php
+// @match		https://elearning.nkust.edu.tw/learn/path/viewPDF.php*
 // @icon		https://elearning.nkust.edu.tw/base/10001/door/tpl/icon.ico
 // @grant		none
 // @license		MIT
