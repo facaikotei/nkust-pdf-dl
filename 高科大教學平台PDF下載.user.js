@@ -13,7 +13,7 @@
 // @license		MIT
 // @homepageURL		https://facaikotei.github.io/
 // @downloadURL		https://github.com/facaikotei/nkust-pdf-dl/raw/main/%E9%AB%98%E7%A7%91%E5%A4%A7%E6%95%99%E5%AD%B8%E5%B9%B3%E5%8F%B0PDF%E4%B8%8B%E8%BC%89.user.js
-// @supportURL		https://github.com/facaikotei/nkust-pdf-dl/issues
+// @supportURL		https://github.com/facaikotei/nkust-pdf-dl
 // ==/UserScript==
 
 (function() {
