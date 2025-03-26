@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         高科大教學平台PDF下載
 // @namespace    https://facaikotei.github.io/
-// @version      2.0.1
+// @version      2
 // @description  強制啟用PDF下載功能
 // @author       (c)2024 facaikotei
 // @match        https://elearning.nkust.edu.tw/learn/path/viewPDF.php?*
